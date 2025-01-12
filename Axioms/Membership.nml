@@ -1,6 +1,0 @@
-Variable g
-
-Variable G:Group
-
-Axiom (ElementsMembership)
-  g ∈ G iff g ∈ elements of G

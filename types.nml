@@ -1,6 +1,8 @@
 Type Operation
 
 Type 
-  Group
-Property
-  elements:Class
+  Group:Collection
+Properties
+  operation:Operation
+  inverse element:Object
+  identity element:Object

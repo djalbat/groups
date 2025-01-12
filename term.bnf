@@ -1,0 +1,13 @@
+
+
+                               term  ::=  argument argument argument 
+
+                                       |  argument<NO_WHITESPACE>"⁻¹"
+
+                                       |  operation
+
+                                       ;
+
+
+                          operation  ::=  "◯" ;
+

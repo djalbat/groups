@@ -1,0 +1,38 @@
+Variable e
+Variable f
+Variable g
+Variable h
+
+Variable G:Group
+
+Axiom (Closure)
+  Suppose 
+    g is an element of G
+    h is an element of G
+    ◯ is an operation of G
+  Then
+    g ◯ h is an element of G
+
+Axiom (Associativity)
+  Suppose 
+    f is an element of G
+    g is an element of G
+    h is an element of G
+    ◯ is an operation of G
+  Then
+    f ◯ (g ◯ h) = (f ◯ g) ◯ h = f ◯ g ◯ h
+
+Axiom (IdentityElement)
+  Suppose 
+    g is an element of G
+    ◯ is an operation of G
+    e is an identity element of G
+  Then
+    e ◯ g = g = g ◯ e
+
+Axiom (InverseElement)
+  Suppose 
+    g is an element of G
+    e is an identity element of G
+  Then
+    ∃g⁻¹ g⁻¹ ◯ g = e = g ◯ g⁻¹
