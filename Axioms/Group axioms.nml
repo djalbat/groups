@@ -4,35 +4,37 @@ Variable g
 Variable h
 
 Variable G:Group
+Variable o:Operation
 
 Axiom (Closure)
   Suppose 
     g is an element of G
     h is an element of G
-    ◯ is an operation of G
+    o is an operation of G
   Then
-    g ◯ h is an element of G
+    g o h is an element of G
 
+###
 Axiom (Associativity)
   Suppose 
     f is an element of G
     g is an element of G
     h is an element of G
-    ◯ is an operation of G
+    o is an operation of G
   Then
-    f ◯ (g ◯ h) = (f ◯ g) ◯ h = f ◯ g ◯ h
+    f o (g o h) = (f o g) o h = f o g o h
 
 Axiom (IdentityElement)
   Suppose 
     g is an element of G
-    ◯ is an operation of G
+    o is an operation of G
     e is an identity element of G
   Then
-    e ◯ g = g = g ◯ e
+    e o g = g = g o e
 
 Axiom (InverseElement)
   Suppose 
     g is an element of G
     e is an identity element of G
   Then
-    ∃g⁻¹ g⁻¹ ◯ g = e = g ◯ g⁻¹
+    ∃g⁻¹ g⁻¹ o g = e = g o g⁻¹
