@@ -14,7 +14,6 @@ Axiom (Closure)
   Then
     g o h is an element of G
 
-###
 Axiom (Associativity)
   Suppose 
     f is an element of G
