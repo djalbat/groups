@@ -28,14 +28,14 @@ Lemma (ClosureOfCyclicGroup)
   Then
     g ● h is an element of C₁
   Proof
-    e₀ ● e₀ = e₀ by CyclicGroupOperation
-    e₀ is an element of C₁ by CyclicGroupMember
-    e₀ ● e₀ is an element of C₁
     g is an element of C₁ iff g = e₀ by CyclicGroupMembers
     g is an element of C₁
     g = e₀ by BiconditionalImplicationLeftElimination
     h is an element of C₁ iff h = e₀ by CyclicGroupMembers
     h is an element of C₁
     h = e₀ by BiconditionalImplicationLeftElimination
+    e₀ is an element of C₁ by CyclicGroupMember
+    e₀ ● e₀ = e₀ by CyclicGroupOperation
+    e₀ ● e₀ is an element of C₁
   Therefore
     g ● h is an element of C₁
