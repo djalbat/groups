@@ -1,0 +1,13 @@
+Variable f
+Variable g
+Variable h
+
+Variable G:Group
+Variable o:Operation
+
+Axiom (Associativity)
+  Suppose 
+    g is an element of G
+    h is an element of G
+  Then
+    f o (g o h) = (f o g) o h = f o g o h

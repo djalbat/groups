@@ -1,0 +1,14 @@
+Variable e
+Variable f
+Variable g
+Variable h
+
+Variable G:Group
+Variable o:Operation
+
+Axiom (Closure)
+  Suppose 
+    g is an element of G
+    h is an element of G
+  Then
+    g o h is an element of G

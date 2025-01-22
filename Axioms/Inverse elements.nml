@@ -1,0 +1,13 @@
+Variable e
+Variable g
+
+Variable G:Group
+Variable o:Operation
+
+Axiom (InverseElements)
+  Suppose 
+    g is an element of G
+    o is an operation of G
+    e is an identity element of G
+  Then
+    ∃g⁻¹ g⁻¹ o g = e = g o g⁻¹

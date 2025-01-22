@@ -1,0 +1,14 @@
+Variable e
+Variable g
+
+Variable G:Group
+Variable o:Operation
+
+Axiom (IdentityElement)
+  Suppose 
+    e is an element of G
+    g is an element of G
+    o is an operation of G
+  Then
+    ∃e e o g = g = g o e
+
