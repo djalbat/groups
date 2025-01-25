@@ -1,8 +1,8 @@
 
 
-                               term  ::=  argument argument argument 
+                               term  ::=  argument argument argument     (1)
 
-                                       |  argument<NO_WHITESPACE>"⁻¹"
+                                       |  argument<NO_WHITESPACE>"⁻¹"    (2)
 
                                        ;
 
