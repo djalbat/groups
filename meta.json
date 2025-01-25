@@ -1,5 +1,5 @@
 {
-  "version": "9.0.1",
+  "version": "10.0.0",
   "repository": "https://github.com/djalbat/groups",
   "dependencies": {
     "equality": "3.0",
