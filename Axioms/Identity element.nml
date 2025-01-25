@@ -10,10 +10,10 @@ Axiom (IdentityElement)
     e is an element of G
     o is an operation of G
   Then
-    ∀g g o e = g = e o g
+    g o e = g = e o g
 
 Axiom (GroupIdentityElement)
   Suppose 
-    e, G satisfy IdentityElement
+    e, o, G satisfy IdentityElement
   Then
     e is an identity element of G
