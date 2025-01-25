@@ -1,0 +1,28 @@
+Variable f
+Variable g
+Variable h
+
+Variable G:Group
+Variable o:Operation
+
+Axiom (Closure)
+  Suppose 
+    g is an element of G
+    h is an element of G
+  Then
+    g o h is an element of G
+
+Axiom (Associativity)
+  Suppose 
+    f is an element of G
+    g is an element of G
+    h is an element of G
+  Then
+    f o (g o h) = (f o g) o h = f o g o h
+
+Axiom (GroupOperation)
+  Suppose 
+    o, G satisfy Closure
+    o, G satisfy Associativity
+  Then
+    o is an operation of G

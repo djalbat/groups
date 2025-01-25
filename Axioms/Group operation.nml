@@ -1,9 +1,0 @@
-Variable G:Group
-Variable o:Operation
-
-Axiom (GroupOperation)
-  Suppose 
-    o, G satisfy Closure
-    o, G satisfy Associativity
-  Then
-    o is an operation of G

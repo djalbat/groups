@@ -6,9 +6,14 @@ Variable o:Operation
 
 Axiom (IdentityElement)
   Suppose 
-    e is an element of G
     g is an element of G
+    e is an element of G
     o is an operation of G
   Then
-    ∃e e o g = g = g o e
+    ∀g g o e = g = e o g
 
+Axiom (GroupIdentityElement)
+  Suppose 
+    e, G satisfy IdentityElement
+  Then
+    e is an identity element of G
