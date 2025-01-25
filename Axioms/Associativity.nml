@@ -7,6 +7,7 @@ Variable o:Operation
 
 Axiom (Associativity)
   Suppose 
+    f is an element of G
     g is an element of G
     h is an element of G
   Then
