@@ -1,8 +1,8 @@
 Variable e
 Variable g
 
-Variable G:Group
-Variable o:Operation
+Variable G:Group provisionally
+Variable o:Operation provisionally
 
 Axiom (InverseElements)
   Suppose 

@@ -2,8 +2,8 @@ Variable f
 Variable g
 Variable h
 
-Variable G:Group
-Variable o:Operation
+Variable G:Group provisionally
+Variable o:Operation provisionally
 
 Axiom (Closure)
   Suppose 

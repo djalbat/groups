@@ -1,0 +1,11 @@
+Variable e
+Variable o
+Variable G:Group provisionally
+
+Axiom (Groups)
+  Suppose
+    o is an operation of G
+    e is an identity element of G
+    e, o, G satisfy InverseElements
+  Then
+    G:Group
