@@ -5,14 +5,14 @@ Variable h
 Variable G:Group provisionally
 Variable o:Operation provisionally
 
-Axiom (Closure)
+Satisfying Axiom (Closure)
   Suppose 
     g is an element of G
     h is an element of G
   Then
     g o h is an element of G
 
-Axiom (Associativity)
+Satisfying Axiom (Associativity)
   Suppose 
     f is an element of G
     g is an element of G
@@ -21,8 +21,4 @@ Axiom (Associativity)
     f o (g o h) = (f o g) o h = f o g o h
 
 Axiom (GroupOperation)
-  Suppose 
-    o, G satisfy Closure
-    o, G satisfy Associativity
-  Then
-    o is an operation of G
+  (o, G satisfy Closure ∧ o, G satisfy Associativity) iff o is an operation of G
