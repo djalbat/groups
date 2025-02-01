@@ -14,3 +14,9 @@ Satisfying Axiom (IdentityElements)
 
 Axiom (GroupIdentityElement)
   e, o, G satisfy IdentityElements iff e is an identity element of G
+
+Axiom (IdentityElementsAreElements)
+  Suppose
+    e is an identity element of G
+  Then
+    e is an element of G
