@@ -1,5 +1,6 @@
-Variable e
-Variable o
+Variable e:Element
+Variable o:Element
+
 Variable G:Group provisionally
 
 Axiom (Groups)

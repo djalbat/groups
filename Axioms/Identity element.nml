@@ -1,10 +1,10 @@
-Variable e
-Variable g
+Variable e:Element
+Variable g:Element
 
 Variable G:Group provisionally
 Variable o:Operation provisionally
 
-Satisfying Axiom (IdentityElement)
+Satisfying Axiom (IdentityElements)
   Suppose 
     g is an element of G
     e is an element of G
@@ -13,4 +13,4 @@ Satisfying Axiom (IdentityElement)
     g o e = g = e o g
 
 Axiom (GroupIdentityElement)
-  e, o, G satisfy IdentityElement iff e is an identity element of G
+  e, o, G satisfy IdentityElements iff e is an identity element of G

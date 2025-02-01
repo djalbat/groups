@@ -1,6 +1,6 @@
-Variable f
-Variable g
-Variable h
+Variable f:Element
+Variable g:Element
+Variable h:Element
 
 Variable G:Group provisionally
 Variable o:Operation provisionally

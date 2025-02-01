@@ -1,5 +1,5 @@
-Variable e
-Variable g
+Variable e:Element
+Variable g:Element
 
 Variable G:Group provisionally
 Variable o:Operation provisionally
