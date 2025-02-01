@@ -1,4 +1,5 @@
 Variable e:Element
+Variable f:Element
 Variable g:Element
 
 Variable G:Group provisionally
@@ -6,9 +7,9 @@ Variable o:Operation provisionally
 
 Satisfying Axiom (InverseElements)
   Suppose 
-    g⁻¹ is an element of G
+    f is an element of G
     g is an element of G
     o is an operation of G
     e is an identity element of G
   Then
-    g⁻¹ o g = e = g o g⁻¹
+    f o g = e = g o f
