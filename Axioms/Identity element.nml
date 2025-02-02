@@ -13,7 +13,7 @@ Satisfying Axiom (IdentityElements)
     g o e = g = e o g
 
 Axiom (GroupIdentityElement)
-  g, o, e, G satisfy IdentityElements iff e is an identity element of G
+  e, o, G satisfy IdentityElements iff e is an identity element of G
 
 Axiom (IdentityElementsAreElements)
   Suppose

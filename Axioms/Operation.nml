@@ -21,4 +21,4 @@ Satisfying Axiom (Associativity)
     f o (g o h) = (f o g) o h = f o g o h
 
 Axiom (GroupOperation)
-  (g, o, h, G satisfy Closure ∧ f, o, g, h, G satisfy Associativity) iff o is an operation of G
+  (o, G satisfy Closure ∧ o, G satisfy Associativity) iff o is an operation of G

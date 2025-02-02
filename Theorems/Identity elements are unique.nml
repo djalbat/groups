@@ -12,21 +12,21 @@ Lemma
   Then
     e1 = e2
   Proof
-    e2 is an element of F by IdentityElementsAreElements
     e1 is an element of F by IdentityElementsAreElements
-    e2, o, e1, F satisfy IdentityElements iff e1 is an identity element of F by GroupIdentityElement
+    e2 is an element of F by IdentityElementsAreElements
+    e1, o, F satisfy IdentityElements iff e1 is an identity element of F by GroupIdentityElement
     e1 is an identity element of F
-    e2, o, e1, F satisfy IdentityElements by BiconditionalImplicationRightElimination
+    e1, o, F satisfy IdentityElements by BiconditionalImplicationRightElimination
     e1 is an element of F
     e2 is an element of F
     o is an operation of F
     e2 o e1 = e2 = e1 o e2 by IdentityElements
     e2 = e1 o e2 by DoubleEqualityLeftElimination
-    e1, o, e2, F satisfy IdentityElements iff e2 is an identity element of F by GroupIdentityElement
+    e2, o, F satisfy IdentityElements iff e2 is an identity element of F by GroupIdentityElement
     e2 is an identity element of F
-    e1, o, e2, F satisfy IdentityElements by BiconditionalImplicationRightElimination
-    e1 is an element of F
+    e2, o, F satisfy IdentityElements by BiconditionalImplicationRightElimination
     e2 is an element of F
+    e1 is an element of F
     o is an operation of F
     e1 o e2 = e1 = e2 o e1 by IdentityElements
     e1 o e2 = e1 by DoubleEqualityRightElimination
