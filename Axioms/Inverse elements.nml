@@ -5,7 +5,7 @@ Variable g:Element
 Variable G:Group provisionally
 Variable o:Operation provisionally
 
-Satisfying Axiom (InverseElements)
+Satisfiable Axiom (InverseElements)
   Suppose 
     f is an element of G
     g is an element of G

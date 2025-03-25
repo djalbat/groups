@@ -4,7 +4,7 @@ Variable g:Element
 Variable G:Group provisionally
 Variable o:Operation provisionally
 
-Satisfying Axiom (IdentityElements)
+Satisfiable Axiom (IdentityElements)
   Suppose 
     g is an element of G
     e is an element of G

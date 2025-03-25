@@ -5,14 +5,14 @@ Variable h:Element
 Variable G:Group provisionally
 Variable o:Operation provisionally
 
-Satisfying Axiom (Closure)
+Satisfiable Axiom (Closure)
   Suppose 
     g is an element of G
     h is an element of G
   Then
     g o h is an element of G
 
-Satisfying Axiom (Associativity)
+Satisfiable Axiom (Associativity)
   Suppose 
     f is an element of G
     g is an element of G
