@@ -7,6 +7,6 @@ Axiom (Groups)
   Suppose
     o is an operation of G
     e is an identity element of G
-    o, e, G satisfy InverseElements
+    e, o, G satisfy GroupInverseElements
   Then
     G:Group

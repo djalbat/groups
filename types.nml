@@ -4,6 +4,6 @@ Provisional Type IdentityElement:Element
 
 Provisional Type 
   Group:Collection
-Properties
-  operation:Operation
-  identity element:IdentityElement
+  Properties
+    operation:Operation
+    identity element:IdentityElement
