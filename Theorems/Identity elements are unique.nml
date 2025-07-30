@@ -14,17 +14,17 @@ Theorem (IdentityElementsAreUnique)
   Proof
     e1 is an element of F by IdentityElementsAreElements
     e2 is an element of F by IdentityElementsAreElements
-    e1, o, F satisfy GroupIdentityElement iff e1 is an identity element of F by IdentityElements
+    e1 is an identity element of F iff e1, o, F satisfy GroupIdentityElement by IdentityElements
     e1 is an identity element of F
-    e1, o, F satisfy GroupIdentityElement by BiconditionalImplicationRightElimination
+    e1, o, F satisfy GroupIdentityElement by BiconditionalImplicationLeftElimination
     e1 is an element of F
     e2 is an element of F
     o is an operation of F
     e2 o e1 = e2 = e1 o e2 by GroupIdentityElement
     e2 = e1 o e2 by DoubleEqualityLeftElimination
-    e2, o, F satisfy GroupIdentityElement iff e2 is an identity element of F by IdentityElements
+    e2 is an identity element of F iff e2, o, F satisfy GroupIdentityElement by IdentityElements
     e2 is an identity element of F
-    e2, o, F satisfy GroupIdentityElement by BiconditionalImplicationRightElimination
+    e2, o, F satisfy GroupIdentityElement by BiconditionalImplicationLeftElimination
     e2 is an element of F
     e1 is an element of F
     o is an operation of F

@@ -19,4 +19,4 @@ Axiom (IdentityElementsAreElements)
     e is an element of G
 
 Axiom (IdentityElements)
-  e, o, G satisfy GroupIdentityElement iff e is an identity element of G
+  e is an identity element of G iff e, o, G satisfy GroupIdentityElement
