@@ -2,7 +2,7 @@ Variable e:Element
 Variable g:Element 
 
 Variable G:Group provisionally
-Variable o:Operation provisionally
+Variable o:Operation
 
 Satisfiable Axiom (GroupIdentityElement)
   Suppose 

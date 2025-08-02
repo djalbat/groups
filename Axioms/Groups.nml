@@ -1,7 +1,7 @@
 Variable e:Element
 
 Variable G:Group provisionally
-Variable o:Operation provisionally
+Variable o:Operation
 
 Axiom (Groups)
   Suppose

@@ -3,7 +3,7 @@ Variable g:Element
 Variable h:Element
 
 Variable G:Group provisionally
-Variable o:Operation provisionally
+Variable o:Operation
 
 Satisfiable Axiom (GroupClosure)
   Suppose 

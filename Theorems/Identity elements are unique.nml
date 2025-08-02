@@ -2,7 +2,7 @@ Variable e1:Element
 Variable e2:Element
 
 Variable F:Group provisionally
-Variable o:Operation provisionally
+Variable o:Operation
 
 Theorem (IdentityElementsAreUnique)
   Suppose

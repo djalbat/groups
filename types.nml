@@ -1,9 +1,7 @@
-Provisional Type Operation
-
-Provisional Type IdentityElement:Element
+Type Operation
 
 Provisional Type 
   Group:Collection
   Properties
     operation:Operation
-    identity element:IdentityElement
+    identity element:Element
