@@ -1,0 +1,20 @@
+Variable G:Group provisionally
+
+Variable e:Element
+Variable g:Element
+
+Variable o:Operation
+
+Theorem (CompositionWithIdentityElements)
+  Suppose
+    o is an operation of G
+    e is an identity element of G
+    g is an element of G
+  Then
+    g o e = g = e o g
+  Proof
+    e is an identity element of G iff [G, o, e, g] satisfies GroupIdentityElement by IdentityElements
+    e is an identity element of G
+    [G, o, e, g] satisfies GroupIdentityElement by BiconditionalImplicationLeftElimination
+    Therefore
+      g o e = g = e o g

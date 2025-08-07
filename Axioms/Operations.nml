@@ -5,14 +5,14 @@ Variable h:Element
 Variable G:Group provisionally
 Variable o:Operation
 
-Satisfiable Axiom (GroupClosure)
+Axiom [G, o, f, g] (GroupClosure)
   Suppose 
+    f is an element of G
     g is an element of G
-    h is an element of G
   Then
-    g o h is an element of G
+    f o g is an element of G
 
-Satisfiable Axiom (GroupAssociativity)
+Axiom [G, o, f, g, h] (GroupAssociativity)
   Suppose 
     f is an element of G
     g is an element of G
@@ -21,4 +21,4 @@ Satisfiable Axiom (GroupAssociativity)
     f o (g o h) = (f o g) o h = f o g o h
 
 Axiom (Operations)
-  o is an operation of G iff (o, G satisfy GroupClosure ∧ o, G satisfy GroupAssociativity)
+  o is an operation of G iff ([G, o, f, g, h] satisfies GroupClosure ∧ [G, o, f, g, h] satisfies GroupAssociativity)

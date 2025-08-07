@@ -4,7 +4,7 @@ Variable g:Element
 Variable G:Group provisionally
 Variable o:Operation
 
-Satisfiable Axiom (GroupIdentityElement)
+Axiom [G, o, e, g] (GroupIdentityElement)
   Suppose 
     e is an element of G
     o is an operation of G
@@ -19,4 +19,4 @@ Axiom (IdentityElementsAreElements)
     e is an element of G
 
 Axiom (IdentityElements)
-  e is an identity element of G iff e, o, G satisfy GroupIdentityElement
+  e is an identity element of G iff [G, o, e, g] satisfies GroupIdentityElement

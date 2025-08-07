@@ -1,13 +1,13 @@
 Variable e:Element
-Variable f:Element
+Variable g:Element
 
 Variable G:Group provisionally
 Variable o:Operation
 
-Satisfiable Axiom (GroupInverseElements)
+Axiom [G, o, e, g] (GroupInverseElements)
   Suppose 
     e is an identity element of G
     o is an operation of G
-    f is an element of G
+    g is an element of G
   Then
-    f o f⁻¹ = e = f⁻¹ o f
+    g o g⁻¹ = e = g⁻¹ o g

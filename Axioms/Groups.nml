@@ -1,12 +1,14 @@
-Variable e:Element
-
 Variable G:Group provisionally
+
 Variable o:Operation
+
+Variable e:Element
+Variable g:Element
 
 Axiom (Groups)
   Suppose
     o is an operation of G
     e is an identity element of G
-    e, o, G satisfy GroupInverseElements
+    [G, o, e, g] satisfies GroupInverseElements
   Then
     G:Group
