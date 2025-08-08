@@ -21,4 +21,4 @@ Axiom [G, o, f, g, h] (GroupAssociativity)
     f o (g o h) = (f o g) o h = f o g o h
 
 Axiom (Operations)
-  o is an operation of G iff ([G, o, f, g, h] satisfies GroupClosure ∧ [G, o, f, g, h] satisfies GroupAssociativity)
+  o is an operation of G iff ([G, o, f, g] satisfies GroupClosure ∧ [G, o, f, g, h] satisfies GroupAssociativity)
