@@ -1,16 +1,17 @@
+Variable G:Group provisionally
+
+Variable o:Operation
+
 Variable f:Element
 Variable g:Element
 Variable h:Element
-
-Variable G:Group provisionally
-Variable o:Operation
 
 Axiom [G, o, f, g] (GroupClosure)
   Suppose 
     f is an element of G
     g is an element of G
   Then
-    f o g is an element of G
+    g o f is an element of G
 
 Axiom [G, o, f, g, h] (GroupAssociativity)
   Suppose 
@@ -18,7 +19,7 @@ Axiom [G, o, f, g, h] (GroupAssociativity)
     g is an element of G
     h is an element of G
   Then
-    f o (g o h) = (f o g) o h = f o g o h
+    h o (g o f) = (h o g) o f = h o g o f
 
-Axiom (Operations)
+Axiom (GroupOperations)
   o is an operation of G iff ([G, o, f, g] satisfies GroupClosure ∧ [G, o, f, g, h] satisfies GroupAssociativity)
