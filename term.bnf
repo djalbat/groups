@@ -1,6 +1,8 @@
 
 
-                               term  ::=  argument argument argument     (1)
+                               term  ::=  ( "𝓮_" | "∘_" )<NO_WHITESPACE>argument
+
+                                       |  argument argument argument     (1)
 
                                        |  argument<NO_WHITESPACE>"⁻¹"    (2)
 

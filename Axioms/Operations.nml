@@ -6,14 +6,14 @@ Variable f:Element
 Variable g:Element
 Variable h:Element
 
-Axiom [G, o, f, g] (GroupClosure)
+Axiom [G, o] (GroupClosure)
   Suppose 
     f is an element of G
     g is an element of G
   Then
     g o f is an element of G
 
-Axiom [G, o, f, g, h] (GroupAssociativity)
+Axiom [G, o] (GroupAssociativity)
   Suppose 
     f is an element of G
     g is an element of G
@@ -21,5 +21,8 @@ Axiom [G, o, f, g, h] (GroupAssociativity)
   Then
     h o (g o f) = (h o g) o f = h o g o f
 
-Axiom (GroupOperations)
-  o is an operation of G iff ([G, o, f, g] satisfies GroupClosure ∧ [G, o, f, g, h] satisfies GroupAssociativity)
+Axiom [G] (GroupOperations)
+  ∘_G is an operation of G
+
+Axiom (GroupOperation)
+  o is an operation of G iff ([G, o] satisfies GroupClosure ∧ [G, o] satisfies GroupAssociativity)

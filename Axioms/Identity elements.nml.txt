@@ -13,11 +13,14 @@ Axiom [G, o, e, g] (GroupIdentityElement)
   Then
     g o e = g = e o g
 
+Axiom [G, o, e] (GroupIdentityElements)
+  Suppose
+    e is an identity element of G
+  Then
+   [G, o, e, g] satisfies GroupIdentityElement
+
 Axiom (GroupIdentityElementsAreElements)
   Suppose
     e is an identity element of G
   Then
     e is an element of G
-
-Axiom (GroupIdentityElements)
-  e is an identity element of G iff [G, o, e, g] satisfies GroupIdentityElement
