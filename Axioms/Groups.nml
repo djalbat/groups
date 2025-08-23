@@ -3,10 +3,7 @@ Variable G:Group provisionally
 Axiom (Groups)
   Suppose
     [G] satisfies GroupOperations
+    [G] satisfies GroupIdentityElements
+    [G] satisfies GroupInverseElements
   Then
     G:Group
-
-###
-    [G] satisfies GroupInverseElements
-    [G] satisfies GroupIdentityElements
-###

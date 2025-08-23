@@ -1,0 +1,40 @@
+Variable G:Group provisionally
+
+Variable o:Operation
+
+Variable f:Element
+Variable g:Element
+Variable h:Element
+
+Theorem (GroupsAreClosed)
+  Suppose
+    G:Group
+    o is an operation of G
+    f is an element of G
+    g is an element of G
+  Then
+    g o f is an element of G
+  Proof
+    o is an operation of G iff ([G, o] satisfies GroupClosure ∧ [G, o] satisfies GroupAssociativity) by GroupOperation
+    o is an operation of G
+    [G, o] satisfies GroupClosure ∧ [G, o] satisfies GroupAssociativity by BiconditionalImplicationLeftElimination
+    [G, o] satisfies GroupClosure by ConjunctionRightElimination
+    Therefore
+      g o f is an element of G
+
+Theorem (GroupsAreAssociative)
+  Suppose
+    G:Group
+    o is an operation of G
+    f is an element of G
+    g is an element of G
+    h is an element of G
+  Then
+    h o (g o f) = (h o g) o f = h o g o f
+  Proof
+    o is an operation of G iff ([G, o] satisfies GroupClosure ∧ [G, o] satisfies GroupAssociativity) by GroupOperation
+    o is an operation of G
+    [G, o] satisfies GroupClosure ∧ [G, o] satisfies GroupAssociativity by BiconditionalImplicationLeftElimination
+    [G, o] satisfies GroupAssociativity by ConjunctionLeftElimination
+    Therefore
+      h o (g o f) = (h o g) o f = h o g o f
