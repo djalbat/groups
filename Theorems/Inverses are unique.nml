@@ -1,0 +1,43 @@
+Variable G:Group provisionally
+
+Variable o:Operation
+
+Variable e:Element
+Variable f:Element
+Variable g1:Element
+Variable g2:Element
+
+Theorem (GroupInversesAreUnique)
+  Suppose
+    f is an element of G
+    o is an operation of G
+    e is an identity element of G
+    g1 is an inverse of f
+    g2 is an inverse of f
+  Then
+    g1 = g2
+  Proof
+    g1 is an inverse of f iff g1 o f = e = f o g1 by GroupInverse
+    g1 is an inverse of f
+    g1 o f = e = f o g1 by BiconditionalImplicationLeftElimination
+    g1 o f = e by DoubleEqualityRightElimination
+    e = f o g1 by DoubleEqualityLeftElimination
+    g2 is an inverse of f iff g2 o f = e = f o g2 by GroupInverse
+    g2 is an inverse of f
+    g2 o f = e = f o g2 by BiconditionalImplicationLeftElimination
+    g2 o f = e by DoubleEqualityRightElimination
+    e = f o g2 by DoubleEqualityLeftElimination
+    g1 is an element of G by GroupInversesAreElements
+    g1 o e = g1 = e o g1 by GroupCompositionWithIdentityElements
+    g1 = e o g1 by DoubleEqualityLeftElimination
+    g2 is an element of G by GroupInversesAreElements
+    g2 o e = g2 = e o g2 by GroupCompositionWithIdentityElements
+    g2 o e = g2 by DoubleEqualityRightElimination
+    g2 o (f o g1) = (g2 o f) o g1 = g2 o f o g1 by GroupsAreAssociative
+    g2 o (f o g1) = (g2 o f) o g1 by DoubleEqualityRightElimination
+    g1 = e o g1
+    g1 = (g2 o f) o g1
+    g1 = g2 o (f o g1)
+    g1 = g2 o e
+  Therefore
+    g1 = g2

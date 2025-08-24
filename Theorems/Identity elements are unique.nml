@@ -6,7 +6,7 @@ Variable g:Element
 Variable e1:Element
 Variable e2:Element
 
-Theorem (IdentityElementsAreUnique)
+Theorem (GroupIdentityElementsAreUnique)
   Suppose
     o is an operation of G
     e1 is an identity element of G

@@ -1,0 +1,31 @@
+Variable G:Group provisionally
+
+Variable o:Operation
+
+Variable e:Element
+Variable f:Element
+Variable g:Element
+
+Axiom [G] (GroupInverses)
+  Suppose
+    g is an element of G
+  Then
+    g⁻¹ is an element of G
+
+Axiom (GroupInverseCanoicalForm)
+  g⁻¹ is an inverse of g
+
+Axiom (GroupInverse)
+  Suppose
+    g is an element of G
+    o is an operation of G
+    e is an identity element of G
+  Then
+    f is an inverse of g iff f o g = e = g o f
+
+Axiom (GroupInversesAreElements)
+  Suppose
+    g is an element of G
+    f is an inverse of g
+  Then
+    f is an element of G

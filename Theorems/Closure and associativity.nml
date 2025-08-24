@@ -8,10 +8,9 @@ Variable h:Element
 
 Theorem (GroupsAreClosed)
   Suppose
-    G:Group
-    o is an operation of G
     f is an element of G
     g is an element of G
+    o is an operation of G
   Then
     g o f is an element of G
   Proof
@@ -24,11 +23,10 @@ Theorem (GroupsAreClosed)
 
 Theorem (GroupsAreAssociative)
   Suppose
-    G:Group
-    o is an operation of G
     f is an element of G
     g is an element of G
     h is an element of G
+    o is an operation of G
   Then
     h o (g o f) = (h o g) o f = h o g o f
   Proof
@@ -38,3 +36,5 @@ Theorem (GroupsAreAssociative)
     [G, o] satisfies GroupAssociativity by ConjunctionLeftElimination
     Therefore
       h o (g o f) = (h o g) o f = h o g o f
+
+

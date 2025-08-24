@@ -4,6 +4,6 @@ Axiom (Groups)
   Suppose
     [G] satisfies GroupOperations
     [G] satisfies GroupIdentityElements
-    [G] satisfies GroupInverseElements
+    [G] satisfies GroupInverses
   Then
     G:Group

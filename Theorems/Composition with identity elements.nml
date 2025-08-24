@@ -5,11 +5,11 @@ Variable o:Operation
 Variable e:Element
 Variable g:Element
 
-Theorem (CompositionWithIdentityElements)
+Theorem (GroupCompositionWithIdentityElements)
   Suppose
+    g is an element of G
     o is an operation of G
     e is an identity element of G
-    g is an element of G
   Then
     g o e = g = e o g
   Proof
