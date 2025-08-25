@@ -17,14 +17,16 @@ Theorem (GroupInversesAreUnique)
   Then
     g1 = g2
   Proof
-    g1 is an inverse of f iff g1 o f = e = f o g1 by GroupInverse
+    g1 is an inverse of f iff [o, e, g1, f] satisfies GroupInverseDoubleEqualiy by GroupInverse
     g1 is an inverse of f
-    g1 o f = e = f o g1 by BiconditionalImplicationLeftElimination
+    [o, e, g1, f] satisfies GroupInverseDoubleEqualiy by BiconditionalImplicationLeftElimination
+    g1 o f = e = f o g1
     g1 o f = e by DoubleEqualityRightElimination
     e = f o g1 by DoubleEqualityLeftElimination
-    g2 is an inverse of f iff g2 o f = e = f o g2 by GroupInverse
+    g2 is an inverse of f iff [o, e, g2, f] satisfies GroupInverseDoubleEqualiy by GroupInverse
     g2 is an inverse of f
-    g2 o f = e = f o g2 by BiconditionalImplicationLeftElimination
+    [o, e, g2, f] satisfies GroupInverseDoubleEqualiy by BiconditionalImplicationLeftElimination
+    g2 o f = e = f o g2
     g2 o f = e by DoubleEqualityRightElimination
     e = f o g2 by DoubleEqualityLeftElimination
     g1 is an element of G by GroupInversesAreElements

@@ -15,13 +15,16 @@ Axiom [G] (GroupInverses)
 Axiom (GroupInverseCanoicalForm)
   g⁻¹ is an inverse of g
 
+Axiom [o, e, f, g] (GroupInverseDoubleEqualiy)
+  f o g = e = g o f
+
 Axiom (GroupInverse)
   Suppose
     g is an element of G
     o is an operation of G
     e is an identity element of G
   Then
-    f is an inverse of g iff f o g = e = g o f
+    f is an inverse of g iff [o, e, f, g] satisfies GroupInverseDoubleEqualiy
 
 Axiom (GroupInversesAreElements)
   Suppose
