@@ -5,14 +5,20 @@ Variable o:Operation
 Variable e:Element 
 Variable g:Element 
 
+Axiom [G] (GroupIdentityElements)
+  𝓮_G is an identity element of G
+
+Axiom (GroupIdentityElementsCanonicalForm)
+  Suppose
+    G:Group
+  Then
+    𝓮_G is an identity element of G
+
 Axiom [G, o, e] (GroupIdentity)
   Suppose 
     g is an element of G
   Then
     g o e = g = e o g
-
-Axiom [G] (GroupIdentityElements)
-  𝓮_G is an identity element of G
 
 Axiom (GroupIdentityElement)
   Suppose

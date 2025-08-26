@@ -10,10 +10,14 @@ Axiom [G] (GroupInverses)
   Suppose
     g is an element of G
   Then
-    g⁻¹ is an element of G
+    g⁻¹ is an inverse of g
 
 Axiom (GroupInverseCanoicalForm)
-  g⁻¹ is an inverse of g
+  Suppose
+    G:Group
+    g is an element of G
+  Then
+    g⁻¹ is an inverse of g
 
 Axiom [o, e, f, g] (GroupInverseDoubleEqualiy)
   f o g = e = g o f
