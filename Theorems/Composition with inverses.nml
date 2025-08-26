@@ -1,0 +1,22 @@
+Variable G:Group provisionally
+
+Variable o:Operation
+
+Variable e:Element
+Variable f:Element
+Variable g:Element
+
+Theorem (GroupCompositionWithInverses)
+  Suppose
+    f is an element of G
+    o is an operation of G
+    e is an identity element of G
+    g is an inverse of f
+  Then
+    g o f = e = f o g 
+  Proof
+    g is an inverse of f iff [o, e, g, f] satisfies GroupInverseDoubleEqualiy by GroupInverse
+    g is an inverse of f
+    [o, e, g, f] satisfies GroupInverseDoubleEqualiy by BiconditionalImplicationLeftElimination
+  Therefore
+    g o f = e = f o g 

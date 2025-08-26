@@ -15,16 +15,10 @@ Theorem (GroupIdentityElementsAreUnique)
     e1 = e2
   Proof
     e1 is an element of G by GroupIdentityElementsAreElements
-    e2 is an identity element of G iff [G, o, e2] satisfies GroupIdentity by GroupIdentityElement
-    e2 is an identity element of G
-    [G, o, e2] satisfies GroupIdentity by BiconditionalImplicationLeftElimination
-    e1 o e2 = e1 = e2 o e1
+    e1 o e2 = e1 = e2 o e1 by GroupCompositionWithIdentityElements
     e1 o e2 = e1 by DoubleEqualityRightElimination
     e2 is an element of G by GroupIdentityElementsAreElements
-    e1 is an identity element of G iff [G, o, e1] satisfies GroupIdentity by GroupIdentityElement
-    e1 is an identity element of G
-    [G, o, e1] satisfies GroupIdentity by BiconditionalImplicationLeftElimination
-    e2 o e1 = e2 = e1 o e2
+    e2 o e1 = e2 = e1 o e2 by GroupCompositionWithIdentityElements
     e2 = e1 o e2 by DoubleEqualityLeftElimination
   Therefore
     e1 = e2
