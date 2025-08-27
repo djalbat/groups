@@ -9,7 +9,7 @@ Variable h:Element
 Axiom [G] (GroupOperations)
   ∘_G is an operation of G
 
-Axiom (GroupOperationsCanonoicalForm)
+Axiom (GroupOperationsProjection)
   Suppose
     G:Group
   Then

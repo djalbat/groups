@@ -10,11 +10,17 @@ Axiom [G] (GroupInverses)
   Suppose
     g is an element of G
   Then
-    g⁻¹ is an inverse of g
+    g⁻¹ is an element of G
+
+Axiom (GroupInversesProjection)
+  Suppose
+    G:Group
+    g is an element of G
+  Then
+    g⁻¹ is an element of G
 
 Axiom (GroupInverseCanoicalForm)
   Suppose
-    G:Group
     g is an element of G
   Then
     g⁻¹ is an inverse of g
