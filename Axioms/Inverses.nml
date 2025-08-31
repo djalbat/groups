@@ -12,7 +12,7 @@ Axiom [G] (GroupInverses)
   Then
     g⁻¹ is an element of G
 
-Axiom (GroupInversesProjection)
+Axiom (GroupProjectedInverses)
   Suppose
     G:Group
     g is an element of G

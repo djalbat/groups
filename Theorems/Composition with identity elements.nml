@@ -18,4 +18,4 @@ Theorem (GroupCompositionWithIdentityElements)
     e is an identity element of G
     [G, o, e] satisfies GroupIdentity by BiconditionalImplicationLeftElimination
     Therefore
-      g o e = g = e o g
+      g o e = g = e o g because [G, o, e] satisfies GroupIdentity

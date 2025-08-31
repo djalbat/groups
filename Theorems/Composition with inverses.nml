@@ -19,4 +19,4 @@ Theorem (GroupCompositionWithInverses)
     g is an inverse of f
     [o, e, g, f] satisfies GroupInverseDoubleEqualiy by BiconditionalImplicationLeftElimination
   Therefore
-    g o f = e = f o g 
+    g o f = e = f o g because [o, e, g, f] satisfies GroupInverseDoubleEqualiy

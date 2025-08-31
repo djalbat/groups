@@ -8,7 +8,7 @@ Variable g:Element
 Axiom [G] (GroupIdentityElements)
   𝓮_G is an identity element of G
 
-Axiom (GroupIdentityElementsProjection)
+Axiom (GroupProjectedIdentityElements)
   Suppose
     G:Group
   Then
