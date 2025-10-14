@@ -1,12 +1,14 @@
-Type
-  Element
-  Property
-    inverse:Element
+TypePrefix 𝖦𝗋𝗈𝗎𝗉
 
-Type Operation
+Type
+  𝖤𝗅𝖾𝗆𝖾𝗇𝗍:𝖢𝗈𝗅𝗅𝖾𝖼𝗍𝗂𝗈𝗇𝖤𝗅𝖾𝗆𝖾𝗇𝗍
+  Property
+    inverse:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
+
+Type 𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗈𝗇
 
 Provisional Type
-  Group:Collection
+  𝖦𝗋𝗈𝗎𝗉:𝖢𝗈𝗅𝗅𝖾𝖼𝗍𝗂𝗈𝗇
   Properties
-    operation:Operation
-    identity element:Element
+    operation:𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗈𝗇
+    identity element:𝖤𝗅𝖾𝗆𝖾𝗇𝗍

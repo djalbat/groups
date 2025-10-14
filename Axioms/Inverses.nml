@@ -1,27 +1,27 @@
-Variable G:Group provisionally
+Variable 𝒢:𝖦𝗋𝗈𝗎𝗉 provisionally
 
-Variable o:Operation
+Variable o:𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗈𝗇
 
-Variable e:Element
-Variable f:Element
-Variable g:Element
+Variable e:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
+Variable f:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
+Variable g:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 
-Axiom [G] (GroupInverses)
+Axiom [𝒢] (GroupInverses)
   Suppose
-    g is an element of G
+    g is an element of 𝒢
   Then
-    g⁻¹ is an element of G
+    g⁻¹ is an element of 𝒢
 
 Axiom (GroupProjectedInverses)
   Suppose
-    G:Group
-    g is an element of G
+    𝒢:𝖦𝗋𝗈𝗎𝗉
+    g is an element of 𝒢
   Then
-    g⁻¹ is an element of G
+    g⁻¹ is an element of 𝒢
 
 Axiom (GroupInverseCanoicalForm)
   Suppose
-    g is an element of G
+    g is an element of 𝒢
   Then
     g⁻¹ is an inverse of g
 
@@ -30,15 +30,15 @@ Axiom [o, e, f, g] (GroupInverseDoubleEqualiy)
 
 Axiom (GroupInverse)
   Suppose
-    g is an element of G
-    o is an operation of G
-    e is an identity element of G
+    g is an element of 𝒢
+    o is an operation of 𝒢
+    e is an identity element of 𝒢
   Then
-    f is an inverse of g iff [o, e, f, g] satisfies GroupInverseDoubleEqualiy
+    f is an inverse of g 𝘪𝘧𝘧 [o, e, f, g] satisfies GroupInverseDoubleEqualiy
 
 Axiom (GroupInversesAreElements)
   Suppose
-    g is an element of G
+    g is an element of 𝒢
     f is an inverse of g
   Then
-    f is an element of G
+    f is an element of 𝒢

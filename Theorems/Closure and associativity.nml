@@ -1,40 +1,38 @@
-Variable G:Group provisionally
+Variable 𝒢:𝖦𝗋𝗈𝗎𝗉 provisionally
 
-Variable o:Operation
+Variable o:𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗈𝗇
 
-Variable f:Element
-Variable g:Element
-Variable h:Element
+Variable f:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
+Variable g:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
+Variable h:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 
 Theorem (GroupsAreClosed)
   Suppose
-    f is an element of G
-    g is an element of G
-    o is an operation of G
+    f is an element of 𝒢
+    g is an element of 𝒢
+    o is an operation of 𝒢
   Then
-    g o f is an element of G
+    g o f is an element of 𝒢
   Proof
-    o is an operation of G iff ([G, o] satisfies GroupClosure ∧ [G, o] satisfies GroupAssociativity) by GroupOperation
-    o is an operation of G
-    [G, o] satisfies GroupClosure ∧ [G, o] satisfies GroupAssociativity by BiconditionalImplicationLeftElimination
-    [G, o] satisfies GroupClosure by ConjunctionRightElimination
+    o is an operation of 𝒢 𝘪𝘧𝘧 ([𝒢, o] satisfies GroupClosure ∧ [𝒢, o] satisfies GroupAssociativity) by GroupOperation
+    o is an operation of 𝒢
+    [𝒢, o] satisfies GroupClosure ∧ [𝒢, o] satisfies GroupAssociativity by BiconditionalImplicationLeftElimination
+    [𝒢, o] satisfies GroupClosure by ConjunctionRightElimination
     Therefore
-      g o f is an element of G because [G, o] satisfies GroupClosure
+      g o f is an element of 𝒢 because [𝒢, o] satisfies GroupClosure
 
 Theorem (GroupsAreAssociative)
   Suppose
-    f is an element of G
-    g is an element of G
-    h is an element of G
-    o is an operation of G
+    f is an element of 𝒢
+    g is an element of 𝒢
+    h is an element of 𝒢
+    o is an operation of 𝒢
   Then
     h o (g o f) = (h o g) o f = h o g o f
   Proof
-    o is an operation of G iff ([G, o] satisfies GroupClosure ∧ [G, o] satisfies GroupAssociativity) by GroupOperation
-    o is an operation of G
-    [G, o] satisfies GroupClosure ∧ [G, o] satisfies GroupAssociativity by BiconditionalImplicationLeftElimination
-    [G, o] satisfies GroupAssociativity by ConjunctionLeftElimination
+    o is an operation of 𝒢 𝘪𝘧𝘧 ([𝒢, o] satisfies GroupClosure ∧ [𝒢, o] satisfies GroupAssociativity) by GroupOperation
+    o is an operation of 𝒢
+    [𝒢, o] satisfies GroupClosure ∧ [𝒢, o] satisfies GroupAssociativity by BiconditionalImplicationLeftElimination
+    [𝒢, o] satisfies GroupAssociativity by ConjunctionLeftElimination
     Therefore
-      h o (g o f) = (h o g) o f = h o g o f because [G, o] satisfies GroupAssociativity
-
-
+      h o (g o f) = (h o g) o f = h o g o f because [𝒢, o] satisfies GroupAssociativity

@@ -1,9 +1,9 @@
-Variable G:Group provisionally
+Variable 𝒢:𝖦𝗋𝗈𝗎𝗉 provisionally
 
 Axiom (Groups)
   Suppose
-    [G] satisfies GroupOperations
-    [G] satisfies GroupIdentityElements
-    [G] satisfies GroupInverses
+    [𝒢] satisfies GroupOperations
+    [𝒢] satisfies GroupIdentityElements
+    [𝒢] satisfies GroupInverses
   Then
-    G:Group
+    𝒢:𝖦𝗋𝗈𝗎𝗉

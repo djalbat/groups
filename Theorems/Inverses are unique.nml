@@ -1,17 +1,17 @@
-Variable G:Group provisionally
+Variable 𝒢:𝖦𝗋𝗈𝗎𝗉 provisionally
 
-Variable o:Operation
+Variable o:𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗈𝗇
 
-Variable e:Element
-Variable f:Element
-Variable g1:Element
-Variable g2:Element
+Variable e:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
+Variable f:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
+Variable g1:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
+Variable g2:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 
 Theorem (GroupInversesAreUnique)
   Suppose
-    f is an element of G
-    o is an operation of G
-    e is an identity element of G
+    f is an element of 𝒢
+    o is an operation of 𝒢
+    e is an identity element of 𝒢
     g1 is an inverse of f
     g2 is an inverse of f
   Then
@@ -23,10 +23,10 @@ Theorem (GroupInversesAreUnique)
     g2 o f = e = f o g2 by GroupCompositionWithInverses
     g2 o f = e by DoubleEqualityRightElimination
     e = f o g2 by DoubleEqualityLeftElimination
-    g1 is an element of G by GroupInversesAreElements
+    g1 is an element of 𝒢 by GroupInversesAreElements
     g1 o e = g1 = e o g1 by GroupCompositionWithIdentityElements
     g1 = e o g1 by DoubleEqualityLeftElimination
-    g2 is an element of G by GroupInversesAreElements
+    g2 is an element of 𝒢 by GroupInversesAreElements
     g2 o e = g2 = e o g2 by GroupCompositionWithIdentityElements
     g2 o e = g2 by DoubleEqualityRightElimination
     g2 o (f o g1) = (g2 o f) o g1 = g2 o f o g1 by GroupsAreAssociative

@@ -1,21 +1,21 @@
-Variable G:Group provisionally
+Variable 𝒢:𝖦𝗋𝗈𝗎𝗉 provisionally
 
-Variable o:Operation
+Variable o:𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗈𝗇
 
-Variable e:Element
-Variable g:Element
+Variable e:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
+Variable g:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 
 Theorem (GroupCompositionWithIdentityElements)
   Suppose
-    g is an element of G
-    o is an operation of G
-    e is an identity element of G
+    g is an element of 𝒢
+    o is an operation of 𝒢
+    e is an identity element of 𝒢
   Then
     g o e = g = e o g
   Proof
-    e is an element of G by GroupIdentityElementsAreElements
-    e is an identity element of G iff [G, o, e] satisfies GroupIdentity by GroupIdentityElement
-    e is an identity element of G
-    [G, o, e] satisfies GroupIdentity by BiconditionalImplicationLeftElimination
+    e is an element of 𝒢 by GroupIdentityElementsAreElements
+    e is an identity element of 𝒢 𝘪𝘧𝘧 [𝒢, o, e] satisfies GroupIdentity by GroupIdentityElement
+    e is an identity element of 𝒢
+    [𝒢, o, e] satisfies GroupIdentity by BiconditionalImplicationLeftElimination
     Therefore
-      g o e = g = e o g because [G, o, e] satisfies GroupIdentity
+      g o e = g = e o g because [𝒢, o, e] satisfies GroupIdentity

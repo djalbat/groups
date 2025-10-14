@@ -1,33 +1,33 @@
-Variable G:Group provisionally
+Variable 𝒢:𝖦𝗋𝗈𝗎𝗉 provisionally
 
-Variable o:Operation
+Variable o:𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗈𝗇
 
-Variable e:Element 
-Variable g:Element 
+Variable e:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
+Variable g:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 
-Axiom [G] (GroupIdentityElements)
-  𝓮_G is an identity element of G
+Axiom [𝒢] (GroupIdentityElements)
+  𝓮_𝒢 is an identity element of 𝒢
 
 Axiom (GroupProjectedIdentityElements)
   Suppose
-    G:Group
+    𝒢:𝖦𝗋𝗈𝗎𝗉
   Then
-    𝓮_G is an identity element of G
+    𝓮_𝒢 is an identity element of 𝒢
 
-Axiom [G, o, e] (GroupIdentity)
+Axiom [𝒢, o, e] (GroupIdentity)
   Suppose 
-    g is an element of G
+    g is an element of 𝒢
   Then
     g o e = g = e o g
 
 Axiom (GroupIdentityElement)
   Suppose
-    o is an operation of G
+    o is an operation of 𝒢
   Then
-    e is an identity element of G iff [G, o, e] satisfies GroupIdentity
+    e is an identity element of 𝒢 𝘪𝘧𝘧 [𝒢, o, e] satisfies GroupIdentity
 
 Axiom (GroupIdentityElementsAreElements)
   Suppose
-    e is an identity element of G
+    e is an identity element of 𝒢
   Then
-    e is an element of G
+    e is an element of 𝒢

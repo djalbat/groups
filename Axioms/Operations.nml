@@ -1,34 +1,34 @@
-Variable G:Group provisionally
+Variable 𝒢:𝖦𝗋𝗈𝗎𝗉 provisionally
 
-Variable o:Operation
+Variable o:𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗈𝗇
 
-Variable f:Element
-Variable g:Element
-Variable h:Element
+Variable f:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
+Variable g:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
+Variable h:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 
-Axiom [G] (GroupOperations)
-  ∘_G is an operation of G
+Axiom [𝒢] (GroupOperations)
+  ∘_𝒢 is an operation of 𝒢
 
 Axiom (GroupProjectedOperations)
   Suppose
-    G:Group
+    𝒢:𝖦𝗋𝗈𝗎𝗉
   Then
-    ∘_G is an operation of G
+    ∘_𝒢 is an operation of 𝒢
 
-Axiom [G, o] (GroupClosure)
+Axiom [𝒢, o] (GroupClosure)
   Suppose 
-    f is an element of G
-    g is an element of G
+    f is an element of 𝒢
+    g is an element of 𝒢
   Then
-    g o f is an element of G
+    g o f is an element of 𝒢
 
-Axiom [G, o] (GroupAssociativity)
+Axiom [𝒢, o] (GroupAssociativity)
   Suppose 
-    f is an element of G
-    g is an element of G
-    h is an element of G
+    f is an element of 𝒢
+    g is an element of 𝒢
+    h is an element of 𝒢
   Then
     h o (g o f) = (h o g) o f = h o g o f
 
 Axiom (GroupOperation)
-  o is an operation of G iff ([G, o] satisfies GroupClosure ∧ [G, o] satisfies GroupAssociativity)
+  o is an operation of 𝒢 𝘪𝘧𝘧 ([𝒢, o] satisfies GroupClosure ∧ [𝒢, o] satisfies GroupAssociativity)
