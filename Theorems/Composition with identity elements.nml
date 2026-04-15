@@ -14,7 +14,7 @@ Theorem (GroupCompositionWithIdentityElements)
     g o e = g = e o g
   Proof
     e is an element of 𝒢 by GroupIdentityElementsAreElements
-    e is an identity element of 𝒢 𝘪𝘧𝘧 [𝒢, o, e] satisfies GroupIdentity by GroupIdentityElement
+    e is an identity element of 𝒢 𝗂𝖿𝖿 [𝒢, o, e] satisfies GroupIdentity by GroupIdentityElement
     e is an identity element of 𝒢
     [𝒢, o, e] satisfies GroupIdentity by BiconditionalImplicationLeftElimination
     Therefore

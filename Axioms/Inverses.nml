@@ -34,7 +34,7 @@ Axiom (GroupInverse)
     o is an operation of 𝒢
     e is an identity element of 𝒢
   Then
-    f is an inverse of g 𝘪𝘧𝘧 [o, e, f, g] satisfies GroupInverseDoubleEqualiy
+    f is an inverse of g 𝗂𝖿𝖿 [o, e, f, g] satisfies GroupInverseDoubleEqualiy
 
 Axiom (GroupInversesAreElements)
   Suppose

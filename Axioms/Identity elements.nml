@@ -24,7 +24,7 @@ Axiom (GroupIdentityElement)
   Suppose
     o is an operation of 𝒢
   Then
-    e is an identity element of 𝒢 𝘪𝘧𝘧 [𝒢, o, e] satisfies GroupIdentity
+    e is an identity element of 𝒢 𝗂𝖿𝖿 [𝒢, o, e] satisfies GroupIdentity
 
 Axiom (GroupIdentityElementsAreElements)
   Suppose
