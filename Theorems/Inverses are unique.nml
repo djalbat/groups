@@ -18,19 +18,19 @@ Theorem (GroupInversesAreUnique)
     g1 = g2
   Proof
     g1 o f = e = f o g1 by GroupCompositionWithInverses
-    g1 o f = e by DoubleEqualityRightElimination
-    e = f o g1 by DoubleEqualityLeftElimination
+    g1 o f = e by DoubleEqualityLeftElimination
+    e = f o g1 by DoubleEqualityRightElimination
     g2 o f = e = f o g2 by GroupCompositionWithInverses
-    g2 o f = e by DoubleEqualityRightElimination
-    e = f o g2 by DoubleEqualityLeftElimination
+    g2 o f = e by DoubleEqualityLeftElimination
+    e = f o g2 by DoubleEqualityRightElimination
     g1 is an element of 𝒢 by GroupInversesAreElements
     g1 o e = g1 = e o g1 by GroupCompositionWithIdentityElements
-    g1 = e o g1 by DoubleEqualityLeftElimination
+    g1 = e o g1 by DoubleEqualityRightElimination
     g2 is an element of 𝒢 by GroupInversesAreElements
     g2 o e = g2 = e o g2 by GroupCompositionWithIdentityElements
-    g2 o e = g2 by DoubleEqualityRightElimination
+    g2 o e = g2 by DoubleEqualityLeftElimination
     g2 o (f o g1) = (g2 o f) o g1 = g2 o f o g1 by GroupsAreAssociative
-    g2 o (f o g1) = (g2 o f) o g1 by DoubleEqualityRightElimination
+    g2 o (f o g1) = (g2 o f) o g1 by DoubleEqualityLeftElimination
     g1 = e o g1
     g1 = (g2 o f) o g1
     g1 = g2 o (f o g1)
