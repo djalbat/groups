@@ -3,12 +3,12 @@ TypePrefix 𝖦𝗋𝗈𝗎𝗉
 Type
   𝖤𝗅𝖾𝗆𝖾𝗇𝗍:𝖢𝗈𝗅𝗅𝖾𝖼𝗍𝗂𝗈𝗇𝖤𝗅𝖾𝗆𝖾𝗇𝗍
   Property
-    inverse:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
+    𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of 𝖤𝗅𝖾𝗆𝖾𝗇𝗍:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 
 Type 𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗈𝗇
 
 Provisional Type
   𝖦𝗋𝗈𝗎𝗉:𝖢𝗈𝗅𝗅𝖾𝖼𝗍𝗂𝗈𝗇
   Properties
-    operation:𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗈𝗇
-    identity element:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
+    𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝖦𝗋𝗈𝗎𝗉:𝖮𝗉𝖾𝗋𝖺𝗍𝗂𝗈𝗇
+    𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝖦𝗋𝗈𝗎𝗉:𝖤𝗅𝖾𝗆𝖾𝗇𝗍

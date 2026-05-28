@@ -8,15 +8,15 @@ Variable g:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 
 Theorem (GroupCompositionWithInverses)
   Suppose
-    f is an element of 𝒢
-    o is an operation of 𝒢
-    e is an identity element of 𝒢
-    g is an inverse of f
+    f is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
+    o is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝒢
+    e is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
+    g is an 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of f
   Then
     g o f = e = f o g 
   Proof
-    g is an inverse of f 𝗂𝖿𝖿 [o, e, g, f] satisfies GroupInverseDoubleEqualiy by GroupInverse
-    g is an inverse of f
+    g is an 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of f 𝗂𝖿𝖿 [o, e, g, f] satisfies GroupInverseDoubleEqualiy by GroupInverse
+    g is an 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of f
     [o, e, g, f] satisfies GroupInverseDoubleEqualiy by BiconditionalImplicationRightElimination
   Therefore
     g o f = e = f o g because [o, e, g, f] satisfies GroupInverseDoubleEqualiy

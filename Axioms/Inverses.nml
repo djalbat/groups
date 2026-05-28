@@ -6,39 +6,39 @@ Variable e:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 Variable f:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 Variable g:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 
-Axiom [𝒢] (GroupInverses)
-  Suppose
-    g is an element of 𝒢
-  Then
-    g⁻¹ is an element of 𝒢
-
 Axiom (GroupProjectedInverses)
   Suppose
     𝒢:𝖦𝗋𝗈𝗎𝗉
-    g is an element of 𝒢
+    g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
   Then
-    g⁻¹ is an element of 𝒢
+    g⁻¹ is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
+
+Axiom [𝒢] (GroupInverses)
+  Suppose
+    g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
+  Then
+    g⁻¹ is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
 
 Axiom (GroupInverseCanoicalForm)
   Suppose
-    g is an element of 𝒢
+    g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
   Then
-    g⁻¹ is an inverse of g
+    g⁻¹ is an 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of g
 
 Axiom [o, e, f, g] (GroupInverseDoubleEqualiy)
   f o g = e = g o f
 
 Axiom (GroupInverse)
   Suppose
-    g is an element of 𝒢
-    o is an operation of 𝒢
-    e is an identity element of 𝒢
+    g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
+    o is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝒢
+    e is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
   Then
-    f is an inverse of g 𝗂𝖿𝖿 [o, e, f, g] satisfies GroupInverseDoubleEqualiy
+    f is an 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of g 𝗂𝖿𝖿 [o, e, f, g] satisfies GroupInverseDoubleEqualiy
 
 Axiom (GroupInversesAreElements)
   Suppose
-    g is an element of 𝒢
-    f is an inverse of g
+    g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
+    f is an 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of g
   Then
-    f is an element of 𝒢
+    f is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢

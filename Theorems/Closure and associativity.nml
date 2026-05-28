@@ -8,32 +8,32 @@ Variable h:𝖤𝗅𝖾𝗆𝖾𝗇𝗍
 
 Theorem (GroupsAreClosed)
   Suppose
-    f is an element of 𝒢
-    g is an element of 𝒢
-    o is an operation of 𝒢
+    f is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
+    g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
+    o is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝒢
   Then
-    g o f is an element of 𝒢
+    g o f is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
   Proof
-    o is an operation of 𝒢 𝗂𝖿𝖿 ([𝒢, o] satisfies GroupClosure ∧ [𝒢, o] satisfies GroupAssociativity) by GroupOperation
-    o is an operation of 𝒢
+    o is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝒢 𝗂𝖿𝖿 ([𝒢, o] satisfies GroupClosure ∧ [𝒢, o] satisfies GroupAssociativity) by GroupOperation
+    o is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝒢
     [𝒢, o] satisfies GroupClosure ∧ [𝒢, o] satisfies GroupAssociativity by BiconditionalImplicationRightElimination
     [𝒢, o] satisfies GroupClosure by ConjunctionLeftElimination
-    f is an element of 𝒢
-    g is an element of 𝒢
+    f is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
+    g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
     Therefore
-      g o f is an element of 𝒢 because [𝒢, o] satisfies GroupClosure
+      g o f is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢 because [𝒢, o] satisfies GroupClosure
 
 Theorem (GroupsAreAssociative)
   Suppose
-    f is an element of 𝒢
-    g is an element of 𝒢
-    h is an element of 𝒢
-    o is an operation of 𝒢
+    f is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
+    g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
+    h is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
+    o is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝒢
   Then
     h o (g o f) = (h o g) o f = h o g o f
   Proof
-    o is an operation of 𝒢 𝗂𝖿𝖿 ([𝒢, o] satisfies GroupClosure ∧ [𝒢, o] satisfies GroupAssociativity) by GroupOperation
-    o is an operation of 𝒢
+    o is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝒢 𝗂𝖿𝖿 ([𝒢, o] satisfies GroupClosure ∧ [𝒢, o] satisfies GroupAssociativity) by GroupOperation
+    o is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝒢
     [𝒢, o] satisfies GroupClosure ∧ [𝒢, o] satisfies GroupAssociativity by BiconditionalImplicationRightElimination
     [𝒢, o] satisfies GroupAssociativity by ConjunctionRightElimination
     Therefore
