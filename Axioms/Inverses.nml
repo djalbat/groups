@@ -26,7 +26,7 @@ Axiom (GroupInverseCanoicalForm)
     g⁻¹ is an 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of g
 
 Axiom [o, e, f, g] (GroupInverseDoubleEqualiy)
-  f o g = e = g o f
+  f`o`g = e = g`o`f
 
 Axiom (GroupInverse)
   Suppose

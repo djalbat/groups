@@ -18,7 +18,7 @@ Axiom [𝒢, o, e] (GroupIdentity)
   Suppose 
     g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
   Then
-    g o e = g = e o g
+    g`o`e = g = e`o`g
 
 Axiom (GroupIdentityElement)
   Suppose
