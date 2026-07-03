@@ -1,8 +1,6 @@
 
 
-                               term  ::=  ( ( "𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺" "𝘦𝘭𝘦𝘮𝘦𝘯𝘵" ) | "𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯" ) "of" argument
-
-                                       |  argument `argument` argument               (1)
+                               term  ::=  "𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺" "𝘦𝘭𝘦𝘮𝘦𝘯𝘵" "of" argument
 
                                        |  ( "𝓮_" | "∘_" )<NO_WHITESPACE>argument     (3)
 
