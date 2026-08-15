@@ -23,7 +23,7 @@ Axiom (GroupInverseCanoicalForm)
   Suppose
     g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
   Then
-    g⁻¹ is an 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of g
+    g⁻¹ is the 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of g
 
 Axiom [o, e, f, g] (GroupInverseDoubleEqualiy)
   f`o`g = e = g`o`f
@@ -32,13 +32,13 @@ Axiom (GroupInverse)
   Suppose
     g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
     o is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝒢
-    e is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
+    e is the 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
   Then
-    f is an 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of g 𝗂𝖿𝖿 [o, e, f, g] satisfies GroupInverseDoubleEqualiy
+    f is the 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of g 𝗂𝖿𝖿 [o, e, f, g] satisfies GroupInverseDoubleEqualiy
 
 Axiom (GroupInversesAreElements)
   Suppose
     g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
-    f is an 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of g
+    f is the 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of g
   Then
     f is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢

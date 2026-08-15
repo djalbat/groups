@@ -11,9 +11,9 @@ Theorem (GroupInversesAreUnique)
   Suppose
     f is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
     o is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝒢
-    e is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
-    g1 is an 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of f
-    g2 is an 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of f
+    e is the 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
+    g1 is the 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of f
+    g2 is the 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 of f
   Then
     g1 = g2
   Proof
@@ -31,7 +31,6 @@ Theorem (GroupInversesAreUnique)
     g2`o`e = g2 by DoubleEqualityLeftElimination
     g2`o`(f`o`g1) = (g2`o`f)`o`g1 = g2`o`f`o`g1 by GroupsAreAssociative
     g2`o`(f`o`g1) = (g2`o`f)`o`g1 by DoubleEqualityLeftElimination
-    g1 = e`o`g1
     g1 = (g2`o`f)`o`g1
     g1 = g2`o`(f`o`g1)
     g1 = g2`o`e

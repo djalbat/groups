@@ -9,10 +9,10 @@ Axiom (GroupProjectedIdentityElements)
   Suppose
     𝒢:𝖦𝗋𝗈𝗎𝗉
   Then
-    𝓮_𝒢 is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
+    𝓮_𝒢 is the 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
 
 Axiom [𝒢] (GroupIdentityElements)
-  𝓮_𝒢 is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
+  𝓮_𝒢 is the 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
 
 Axiom [𝒢, o, e] (GroupIdentity)
   Suppose 
@@ -24,11 +24,11 @@ Axiom (GroupIdentityElement)
   Suppose
     o is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 of 𝒢
   Then
-    e is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢 𝗂𝖿𝖿 [𝒢, o, e] satisfies GroupIdentity
+    e is the 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢 𝗂𝖿𝖿 [𝒢, o, e] satisfies GroupIdentity
 
 Axiom (GroupIdentityElementsAreElements)
   Suppose
-    e is an 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
+    e is the 𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
   Then
     e is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 of 𝒢
 
