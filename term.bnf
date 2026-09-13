@@ -1,6 +1,6 @@
 
 
-                               term  ::=  "𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺" "𝘦𝘭𝘦𝘮𝘦𝘯𝘵" "of" argument
+                               term  ::=  "𝘪𝘥𝘦𝘯𝘵𝘪𝘵𝘺" "𝘦𝘭𝘦𝘮𝘦𝘯𝘵" "𝘰𝘧" argument
 
                                        |  ( "𝓮_" | "∘_" )<NO_WHITESPACE>argument     (3)
 
