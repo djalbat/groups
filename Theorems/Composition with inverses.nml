@@ -16,7 +16,6 @@ Theorem (GroupCompositionWithInverses)
     g`o`f = e = f`o`g 
   Proof
     g is the 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 𝘰𝘧 f 𝗂𝖿𝖿 [o, e, g, f] satisfies GroupInverseDoubleEqualiy by GroupInverse
-    g is the 𝘪𝘯𝘷𝘦𝘳𝘴𝘦 𝘰𝘧 f
     [o, e, g, f] satisfies GroupInverseDoubleEqualiy by BiconditionalImplicationRightElimination
   Therefore
     g`o`f = e = f`o`g because [o, e, g, f] satisfies GroupInverseDoubleEqualiy

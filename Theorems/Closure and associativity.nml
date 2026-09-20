@@ -15,11 +15,8 @@ Theorem (GroupsAreClosed)
     g`o`f is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 𝘰𝘧 𝒢
   Proof
     o is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 𝘰𝘧 𝒢 𝗂𝖿𝖿 ([𝒢, o] satisfies GroupClosure ∧ [𝒢, o] satisfies GroupAssociativity) by GroupOperation
-    o is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 𝘰𝘧 𝒢
     [𝒢, o] satisfies GroupClosure ∧ [𝒢, o] satisfies GroupAssociativity by BiconditionalImplicationRightElimination
     [𝒢, o] satisfies GroupClosure by ConjunctionLeftElimination
-    f is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 𝘰𝘧 𝒢
-    g is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 𝘰𝘧 𝒢
     Therefore
       g`o`f is an 𝘦𝘭𝘦𝘮𝘦𝘯𝘵 𝘰𝘧 𝒢 because [𝒢, o] satisfies GroupClosure
 
@@ -33,7 +30,6 @@ Theorem (GroupsAreAssociative)
     h`o`(g`o`f) = (h`o`g)`o`f = h`o`g`o`f
   Proof
     o is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 𝘰𝘧 𝒢 𝗂𝖿𝖿 ([𝒢, o] satisfies GroupClosure ∧ [𝒢, o] satisfies GroupAssociativity) by GroupOperation
-    o is an 𝘰𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯 𝘰𝘧 𝒢
     [𝒢, o] satisfies GroupClosure ∧ [𝒢, o] satisfies GroupAssociativity by BiconditionalImplicationRightElimination
     [𝒢, o] satisfies GroupAssociativity by ConjunctionRightElimination
     Therefore
